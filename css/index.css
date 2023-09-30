@@ -1,0 +1,402 @@
+
+
+.main-header-menu-item a:hover {
+    color: blue;
+}
+.address-item a:active {
+    color: red;
+}
+.address-item a:hover {
+    color: blue;
+}
+.main-header-menu-link, .address-item-menu-link {
+    text-decoration: none;
+}
+.logo-web, .logo-studio {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    line-height: 21px;
+    font-size: 18px;
+    letter-spacing: 3%;
+}
+.logo-web {
+    color: #4d5ae5;
+    width: 44px;
+    height: 21px;
+}
+.logo-studio {
+    color: #2e2f42;
+    width: 71px;
+    height: 21px;
+}
+.text-decor-none{
+    text-decoration: none;
+    /*display: inline-block;*/
+    display: flex;
+    width: 115px;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.main-header-menu-link {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+.main-header-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    margin: 0px 150px;
+}
+.main-header-nav {
+    display: flex;
+}
+.main-header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /*width: 261px;*/
+    height: 24px;
+    top: 24px;
+    left: 347px;
+    gap: 40px;
+    min-height: 72px;
+    margin-left: 75px;
+    padding: 0px;
+}
+.main-header-menu-item {
+    text-align: left;
+    display: flex;
+    margin-right: 40px;
+}
+.main-header-ctas {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.address-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+.address-item-menu-link {
+    color: #434455;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-align: left;
+    /*padding: 24px 0;*/
+    display: block;
+}
+.hero {
+    background-color: #2e2f42;
+    /*width: 1440px;*/
+    height: 600px;
+    top: 72px;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-heading {
+    color: white;
+    text-align: center;
+    letter-spacing: 2%;
+    line-height: 60px;
+    font-family: Roboto, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
+    margin-bottom: 40px;
+}
+.button-text {
+    color: white;
+    background-color: #4d5ae5;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%; 
+    cursor: pointer;  
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    display: flex;
+}
+.button-text a:hover {
+    background-color: #404bbf;
+}
+.features {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.feature-section {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 24px;
+    width: 1128px;
+    height: 104px;
+    top:792px;
+    left:156px;
+    margin: 120px 140px;
+    padding: 0px;
+}
+.feature-description {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.what-are-we-doing {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.what-are-we-doing-section {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    width: 1128px;
+    left:156px;
+    margin: 120px 140px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;  
+}
+.what-are-we-doing-item {
+    display: inline-flex;
+    justify-content: center;
+    gap:50px;
+}
+.our-team {
+    background-color: #F4F4FD;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+.our-team-section {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    width: 1128px;
+    left:156px;
+    margin: 120px 140px;   
+}
+.our-team-item {
+    border-radius: 0px 0px 4px 4px;
+    background: white;
+    box-shadow: 0px 2px 1px 0px #2e2f42,
+      0px 1px 1px 0px #2e2f42,
+      0px 1px 6px 0px #2e2f42;
+}
+.our-team-names {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.our-team-job-description {
+    color: #434455;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.team-social-item {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.team-social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-left: 0px;
+}
+.customers-list {
+    display: flex;
+    justify-content: center;
+}
+.customers-section {
+    color: #2e2f42;
+    font-family: "roboto";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    left:156px;
+    margin-top: 120px; 
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.client{
+    min-height: 56px;
+    min-width: 104px;
+    border: 2px solid  #8E8F99;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 30px 10px 120px 10px;
+}
+.footer {
+    /*width:1440px;
+    height: 312px;*/
+    top: 2280px;
+    /*padding: 100px 0;*/
+}
+.text-decor-none-footer {
+    text-decoration: none;
+}
+.footer {
+    background-color: #2e2f42;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px 420px;  
+}
+
+.footer-container{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-section, .footer-social {
+    width: 388px;
+}
+
+.footer-logo-web {
+    color: #4D5AE5;
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+.footer-logo-studio {
+    color: #f4f4fd;
+    font-family: "raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+.footer-description {
+    color: #f4f4fd;
+    font-family: "roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.footer-social-text {
+    color: #ffffff;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.row1, .row2, .row3 {
+    font-family: "roboto";
+    font-weight: 500;
+    font-size:20px;
+    line-height: 24px;
+}
+.filter-buttons {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.portfolio-row1, .portfolio-row2, .portfolio-row3 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.portfolio-item {
+    border: 1px;
+    border-color: #e7e9fc;
+    border-style: solid;
+    padding-bottom: 30px;
+}
+.portfolio-description {
+    font-family: "roboto";
+    width: 360px;
+    height: 56px;
+    top: 332px;
+    padding:0px, 16px, 0px, 16px;
+    gap: 8px;
+    text-align: justify;
+}
+.Filters > ul > .portfolio-item > .portfolio-description  {
+    text-indent: 20px;
+}
+
+.benefits-svg-box {
+background: #F4F4FD;
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
